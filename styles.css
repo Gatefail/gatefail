@@ -1,0 +1,21 @@
+body {
+  background-color: darkslategrey;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 98vh;
+}
+
+.image {
+  overflow: hidden;
+  transition-duration: 0.8s;
+  transition-property: transform;
+  max-width: 300px;
+}
+.image:hover {
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+}
